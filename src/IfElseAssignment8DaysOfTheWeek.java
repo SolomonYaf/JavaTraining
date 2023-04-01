@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class IfElseAssignment8 {
+public class IfElseAssignment8DaysOfTheWeek {
     public static void main(String[] args) {
         //8. Write a Java program that prompts the user to enter a number between 1 and 7 and then prints out
         // the corresponding day of the week.
