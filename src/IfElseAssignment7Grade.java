@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class IfElseAssignment7 {
+public class IfElseAssignment7Grade {
     public static void main(String[] args) {
 
         //7. Write a Java program that prompts the user to enter their grade and then prints out whether
