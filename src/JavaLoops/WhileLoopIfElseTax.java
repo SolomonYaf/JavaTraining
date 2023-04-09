@@ -6,8 +6,14 @@ public class WhileLoopIfElseTax {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println(" Please insert Your Salary");
-        double salary = scanner.nextDouble();
+
+while (true){
+        System.out.println(" Do you want to calculate your taxes");
+        String userInput= scanner.next();
+if(userInput.equalsIgnoreCase("no"))
+    break;
+    System.out.println(" Please insert Your Salary");
+    double salary = scanner.nextDouble();
 
         double incomeTax;
         double pensionTax;
@@ -52,5 +58,6 @@ public class WhileLoopIfElseTax {
         }
 
         }
+}
 
 
