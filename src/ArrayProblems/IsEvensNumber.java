@@ -1,9 +1,13 @@
-package Arrays;
+package ArrayProblems;
 
 public class IsEvensNumber {
     public static void main(String[] args) {
-int x= 2568;
+int x= 2668;
+int y=458;
+int z=6;
         System.out.println(isEvensNumber(x));
+        System.out.println(isEvensNumber(y));
+        System.out.println(isEvensNumber(z));
 
     }
 
